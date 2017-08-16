@@ -1,0 +1,44 @@
+h1::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/icono.png);
+  background-size: contain;
+}
+h1::after {
+  content: '';
+  display: inline-block;
+  border: grey solid 10px;
+  border-left-color: #000;
+  border-right-color: red;
+  height: 0;
+}
+
+.caja {
+  border: black solid 1px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  -webkit-box-shadow: 2px 2px 5px 4px rgba(0,0,0,.5);
+box-shadow: 2px 2px 5px 4px rgba(0,0,0,.5);
+}
+
+.avatar {
+  width: 150px;
+  border: black solid 1px;
+}
+
+.avatar img {
+  max-width: 100%;
+}
+
+.contenedor-al-100-de-la-pantalla {
+  background-color: blue;
+  border: red solid 20px;
+  width: 100vw;
+}
+
+@media (min-width: 480px) {
+
+}
